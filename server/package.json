@@ -4,10 +4,14 @@
   "description": "SMS Campaign Manager backend with Africa's Talking integration",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js"
   },
-  "keywords": ["sms", "campaign", "africas-talking"],
+  "keywords": [
+    "sms",
+    "campaign",
+    "africas-talking"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
